@@ -1,4 +1,4 @@
-## Model Writeup
+## Character Level Models For Sentiment Analysis
 The CNN version is the same as Yoon Kim's CNN applied at character level. The char RNN is a GRU based model. 
 Basic Steps
 
