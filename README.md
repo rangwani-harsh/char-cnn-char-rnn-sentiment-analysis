@@ -1,8 +1,8 @@
 ## Character Level Models For Sentiment Analysis
 The CNN version is the same as Yoon Kim's CNN applied at character level. The char RNN is a GRU based model. 
-Basic Steps
+Properties:
 
-1) Preprocessing 
+1) No Preprocessing 
 2) Two models (One is char cnn and the other is char rnn).
 3) Evaluation metric - Macro F1
 4) Saving the checkpoints if validation_macro_f1 > best_macro_f1.
