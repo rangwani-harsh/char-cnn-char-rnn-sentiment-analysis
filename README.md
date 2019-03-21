@@ -4,7 +4,7 @@ The CNN version is the same as [Yoon Kim's CNN](https://arxiv.org/pdf/1408.5882.
 ## Dataset
 [Twitter US Sentiment Analysis Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) which are split into three seperate files of Negetive, Positive and Neutral Tweets.
  
-Properties:
+## Implementation Details:
 
 1) No Preprocessing 
 2) Two models (One is char cnn and the other is char rnn).
