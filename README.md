@@ -23,8 +23,9 @@ Install the requirements by ```pip install -r requirements.txt```
 ## For prediction of the sentence file:
 
 ```python predict.py --input input_file -output output_file```
+In the input file write the instances to be classified line by line.
 
-Suggestions for improving the model
+### Suggestions for improving the model
 1) Hyperparameter tuning
 2) Preprocessing
 3) Char CNN and Char LSTM can be used on token level as being used as a whole.
