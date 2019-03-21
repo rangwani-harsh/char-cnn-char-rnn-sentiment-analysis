@@ -1,5 +1,9 @@
 ## Character Level Models For Sentiment Analysis
-The CNN version is the same as Yoon Kim's CNN applied at character level. The char RNN is a GRU based model. 
+The CNN version is the same as [Yoon Kim's CNN](https://arxiv.org/pdf/1408.5882.pdf) applied at character level. The char RNN is a GRU based model.
+
+## Dataset
+[Twitter US Sentiment Analysis Dataset](https://www.kaggle.com/crowdflower/twitter-airline-sentiment) which are split into three seperate files of Negetive, Positive and Neutral Tweets.
+ 
 Properties:
 
 1) No Preprocessing 
