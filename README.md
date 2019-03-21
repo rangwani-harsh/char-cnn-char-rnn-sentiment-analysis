@@ -1,12 +1,14 @@
 ## Character Level Models For Sentiment Analysis
 The CNN version is the same as Yoon Kim's CNN applied at character level. The char RNN is a GRU based model. 
-Basic Steps
+Properties:
 
-1) Preprocessing 
+1) No Preprocessing 
 2) Two models (One is char cnn and the other is char rnn).
 3) Evaluation metric - Macro F1
 4) Saving the checkpoints if validation_macro_f1 > best_macro_f1.
 
+## For Requirements
+Install the requirements by ```pip install -r requirements.txt```
 
 ## To evaluate the validation accuracy:
 
@@ -58,4 +60,4 @@ The boiler plate code was taken from the repository https://github.com/srviest/c
 
 In case you require assistance please feel free to email me harsh.rangwani.cse15@iitbhu.ac.in
 
-Install the requirements by pip install -r requirements.txt
+
